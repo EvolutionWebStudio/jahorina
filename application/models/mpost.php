@@ -80,7 +80,7 @@ class MPost extends CI_Model
     {
         $query = $this->db
             ->select("*")
-            ->where(array("publised" => 1))
+            ->where(array("published" => 1))
             ->get("post");
 
         if ($query->num_rows() > 0)
