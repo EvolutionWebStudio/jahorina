@@ -97,21 +97,171 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    background: url("../img/placeholders/1280x1024/14.jpg") center center no-repeat fixed;
+    background-size: cover;
+    font-size: 1.2rem;
+}
+a {
+    color: #333;
+}
+    a:hover {
+        color: #8dacc8;
+    }
+h1, h2, h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.main-wrapper {
+    background: url("../img/background.png");
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.main-header {
+    position: relative;
+}
+    .header-background {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 150px;
+        width: 100%;
+
+        background: url("../img/header-smaller.png") repeat-x;
+        z-index: 10;
+    }
 
 
+/* MAIN MENU */
+
+.main-menu {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+    z-index: 5;
+}
+    .main-menu ul {
+        list-style: none;
+        text-transform: uppercase;
+    }
+        .main-menu .navigation-block {
+            height: 80px;
+            padding: 0 20px;
+            margin-top: -120px;
+            margin-left: 200px;
+
+            background: #fff;
+        }
+        .main-menu ul li {
+            display: inline-block;
+            height: 100%;
+        }
+            .main-menu a {
+                display: inline-block;
+                height: 100%;
+
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                font-size: 1.3rem;
+            }
+                .main-menu > ul > li > a {
+                    line-height: 80px;
+                    vertical-align: middle;
+                }
+            .main-menu > ul > li {
+                padding: 0 7px;
+            }
+        .main-menu ul ul {
+            display: none;
+            position: absolute;
+            padding: 10px;
+            margin: 0;
+            background: #F0F0F0;
+        }
+            .main-menu ul li:hover ul {
+                display: block;
+            }
+    .main-menu .logo {
+        width: 150px;
+        height: 150px;
+
+        text-indent: -9999px;
+        background: url("../img/jahorina-logo.png") center center no-repeat #fff;
+    }
 
 
+/* ==========================================================================
+   Main container
+   ========================================================================== */
+
+/* MAIN CONTENT */
+
+/* ARTICLE */
+
+article {
+    margin-bottom: 20px;
+}
+.article-content {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
 
 
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 
-
-
-
-
-
-
-
-
+.main-footer {
+    padding-top: 20px;
+    background: url("../img/black_pattern.png");
+    color: #cecece;
+    font-size: 0.9rem;
+}
+    .main-footer hr {
+        margin: 3px 0;
+        border-color: #444;
+    }
+    .main-footer .copyright {
+        margin: 10px 0 0 0;
+        padding: 10px 0;
+        text-align: center;
+        color: #999;
+        border-top: solid 1px #444;
+    }
+    .main-footer a {
+         color: #cecece;
+     }
+        .main-footer a:hover {
+            color: #8dacc8;
+        }
+    .main-footer h4 {
+        margin-bottom: 3px;
+        color: #cecece;
+    }
+.footer-menu ul {
+    list-style: none;
+}
+    .footer-menu li {
+        display: inline-block;
+        padding: 0 5px;
+    }
 
 /* ==========================================================================
    Helper classes
