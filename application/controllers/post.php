@@ -189,7 +189,7 @@ class Post extends RE_Controller {
         $post = array(
             "title" => $this->input->post("naslov-clanka"),
             "content" => $this->input->post("sadrzaj-clanka"),
-            "publised" => $this->input->post("status"),
+            "published" => $this->input->post("status"),
             "user_id" => $this->session->userdata('id'),
             "created_at" => date("Y-m-d"),
             "social" => $this->input->post("opis"),
@@ -204,7 +204,7 @@ class Post extends RE_Controller {
     {
         $this->check_login();
         $this->page_title = "Izmjeni Stranicu";
-        $this->layout = "admin_layout";
+        $this->layout = "admin_vijesti_layout";
 
 
         $this->load->model("mpost");
@@ -232,7 +232,7 @@ class Post extends RE_Controller {
             "id" => $this->input->post("id"),
             "title" => $this->input->post("naslov-clanka"),
             "content" => $this->input->post("sadrzaj-clanka"),
-            "publised" => $this->input->post("status"),
+            "published" => $this->input->post("status"),
             "created_at" => date("Y-m-d"),
             "social" => $this->input->post("opis"),
         );
