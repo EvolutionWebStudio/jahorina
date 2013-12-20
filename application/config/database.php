@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'icefire007';
-$db['default']['database'] = 'jahorina';
+$db['default']['username'] = 'jahnet_root';
+$db['default']['password'] = 'J*fkuHnKZa$*';
+$db['default']['database'] = 'jahnet_joomla';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

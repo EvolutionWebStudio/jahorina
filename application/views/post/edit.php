@@ -9,7 +9,7 @@
         <div class="small-3 columns">
             <br/>
             <label title="Da li je članak objavljen na sajtu ili je vidljiv samo administratoru.">
-                <input type="checkbox" name="status" value="1" <?php if ($post->publised) echo "checked"; ?>/> <strong> Objavljena ponuda</strong>
+                <input type="checkbox" name="status" value="1" <?php if ($post->published) echo "checked"; ?>/> <strong> Objavljena ponuda</strong>
             </label>
         </div>
 
