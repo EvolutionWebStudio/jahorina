@@ -4,7 +4,7 @@
        <a href="<?php echo site_url('vijest/'.$post->id) ?>"><h1><?php  echo $post->title; ?></h1></a>
     </div>
     <div class="container_12">
-        <p><?php echo $post->content; ?></p>
+        <p><?php echo intro($post->content, 350); ?></p>
     </div>
 </div>
 <?php endforeach; ?>

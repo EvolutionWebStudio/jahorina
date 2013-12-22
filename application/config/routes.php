@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "page";
+$route['default_controller'] = "post";
 $route['404_override'] = '';
 $route['vijesti'] = "post/index";
 $route['vijest/(:any)'] = "post/vijest/$1";
@@ -50,6 +50,7 @@ $route['nova-godina'] = "page/nova_godina";
 $route['prijavi'] = "user/prijavi";
 $route['logout'] = "user/logout";
 $route['add-post'] = "post/add";
+$route['dodaj-ponudu'] = "newyear/add";
 
 
 /* End of file routes.php */

@@ -34,7 +34,7 @@
 <![endif]-->
 <header class="main-header">
     <div class="row">
-        <h2 class="logo small-8 columns">Ponuda za doček nove 2014. godine na Jahorini</h2>
+        <h2 class="logo small-8 columns">Unesite svoju ponudu za doček nove godine i ona će biti prikazana na sajtu</h2>
         <div class="small-4 columns">
             <ul class="secondary-navigation button-group radius">
                 <li class="">

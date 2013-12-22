@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/foundation.css" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>fancybox/jquery.fancybox-1.3.4.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/smoothness/jquery-ui-1.8.16.custom.css">
-    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Marmelad&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/main.css" />
 
     <script src="<?php echo base_url(); ?>js/vendor/modernizr.js"></script>
