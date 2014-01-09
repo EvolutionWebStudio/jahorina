@@ -53,7 +53,7 @@ class Page extends RE_Controller {
 
 
         $this->render(array(
-            "name" => "istorija_planine.php",
+            "name" => "page",
             "data" =>  array(
                 "page" => $page
             )
@@ -134,6 +134,36 @@ class Page extends RE_Controller {
 
         $this->render(array(
             "name" => "jahorina_info",
+            "data" =>  array(
+                "page" => $page,
+            )
+        ));
+
+    }
+
+    public function action_kultura_i_umjetnost()
+    {
+        $this->page_title = "Kultura i Umjetnost";
+        $this->load->model("mpage");
+        $page = $this->mpage->return_row(5);
+
+        $this->render(array(
+            "name" => "page",
+            "data" =>  array(
+                "page" => $page,
+            )
+        ));
+
+    }
+
+    public function action_jahorina()
+    {
+        $this->page_title = "Jahorina";
+        $this->load->model("mpage");
+        $page = $this->mpage->return_row(6);
+
+        $this->render(array(
+            "name" => "page",
             "data" =>  array(
                 "page" => $page,
             )

@@ -4,9 +4,21 @@
 </div>
 <div class="large-12 column">
     <h4>Prijatelji sajta</h4>
-    <ul>
-        <li><a href="http://pansionlucic.com" target="_blank">Pansion Lučić</a></li>
-        <li><a href="http://pansionwinter.com" target="_blank">Pansion Winter</a></li>
-        <li><a href="http://matcomp.ba" target="_blank">Matrix Computers</a></li>
+    <ul class="prijatelji-sajta">
+        <li>
+            <a href="http://pansionlucic.com" target="_blank" title="Pansion Lučić">
+                <img src="<?php echo base_url().'img/banners/pansion-lucic-jahorina.jpg' ?>" />
+            </a>
+        </li>
+        <li>
+            <a href="http://pansionwinter.com" target="_blank" title="Pansion Winter">
+                <img src="<?php echo base_url().'img/banners/pansion-winter-jahorina.jpg' ?>" />
+            </a>
+        </li>
+        <li>
+            <a href="http://matcomp.ba" target="_blank" title="Matrix Computer">
+                <img src="<?php echo base_url().'img/banners/matrix-computers-pale.png' ?>" />
+            </a>
+        </li>
     </ul>
 </div>

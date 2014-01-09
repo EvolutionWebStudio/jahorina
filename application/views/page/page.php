@@ -1,7 +1,7 @@
 <section class="main-content row">
     <article class="large-12 columns">
         <header>
-           <h1><?php  echo $page->title; ?></h1>
+            <h1><?php  echo $page->title; ?></h1>
         </header>
 
         <div class="article-content">
@@ -11,5 +11,5 @@
         <footer>
 
         </footer>
-     </article>
+    </article>
 </section>

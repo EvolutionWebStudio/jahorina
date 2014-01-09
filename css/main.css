@@ -178,8 +178,8 @@ h4 {
                 display: inline-block;
                 height: 100%;
 
-                font-family: 'Yanone Kaffeesatz', sans-serif;
-                font-size: 1.3rem;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1.1rem;
             }
                 .main-menu > ul > li > a {
                     line-height: 80px;
@@ -222,6 +222,46 @@ article {
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
+/*KAMERA*/
+
+.kamera {
+    background-color: #fff;
+    width: 469px;
+    height: 275px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.kamera .title-area {
+    background-color: #d1d1d1;
+    border-radius: 7px 7px 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin: 7px 7px 0;
+    padding: 0 10px;
+    font-family: Georgia, Times, "Times New Roman", sans-serif;
+}
+
+.kamera img {
+    margin:5px 5px 10px;
+    width: 459px;
+    height: 200px;
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+ul.prijatelji-sajta {
+    list-style-type: none;
+}
+    ul.prijatelji-sajta li{
+        margin: 5px 0;
+    }
 
 
 /* ==========================================================================
