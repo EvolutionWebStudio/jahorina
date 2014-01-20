@@ -185,6 +185,17 @@ class Page extends RE_Controller {
         ));
     }
 
+    public  function  action_interactive()
+    {
+        $this->page_title = "Virtuelna šetnja po Jahorini";
+
+        $this->render(array(
+            "name" => "interactive",
+            "data" => array(
+            )
+        ));
+    }
+
     public function action_sve_stranice()
     {
         $this->layout = "admin_layout";

@@ -48,6 +48,7 @@ $route['sport-i-rekreacija'] = "page/sport_i_rekreacija";
 $route['jahorina-info'] = "page/jahorina_info";
 $route['kultura-i-umjetnost'] = "page/kultura_i_umjetnost";
 $route['jahorina'] = "page/jahorina";
+$route['interactive'] = "page/interactive";
 $route['nova-godina'] = "page/nova_godina";
 $route['prijavi'] = "user/prijavi";
 $route['logout'] = "user/logout";

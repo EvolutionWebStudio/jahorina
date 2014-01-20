@@ -43,8 +43,8 @@
                 </li>
 
                 <li><a href="<?php echo site_url("turizam"); ?>">Turizam</a></li>
-                <li><a href="<?php echo site_url("zabava"); ?>">Zabava</a></li>
-                <li><a href="<?php echo site_url("galerija"); ?>">Galerija</a></li>
+                <li><a href="<?php echo site_url("#"); ?>">Zabava</a></li>
+                <li><a href="<?php echo site_url("#"); ?>">Galerija</a></li>
                 <li><a href="<?php echo site_url("interactive"); ?>">Interactive</a></li>
                 <li><a href="<?php echo site_url("jahorina-info"); ?>">Jahorina info</a>
                     <ul>
